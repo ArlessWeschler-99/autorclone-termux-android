@@ -1,6 +1,6 @@
 cd /sdcard
 
-apt update && apt upgrade && apt install git -y
+apt update && apt upgrade && apt install wget && apt install git -y
 
 git clone  https://github.com/xyou365/AutoRclone
 
