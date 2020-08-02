@@ -4,7 +4,7 @@ apt update && apt upgrade && apt install git  && apt install python && apt insta
 
 git clone  https://github.com/xyou365/AutoRclone && cd AutoRclone && pip install -r requirements.txt
 
-cd /sdcard
+cd /sdcard/AutoRclone
 
 rm -r .git
 
