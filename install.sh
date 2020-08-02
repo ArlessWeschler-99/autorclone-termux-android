@@ -1,10 +1,12 @@
 cd /sdcard
 
-apt update && apt upgrade && apt install git  && apt install python && apt install rclone -y
+apt update && apt upgrade && apt install git  && apt install python -y
 
 git clone  https://github.com/xyou365/AutoRclone && cd AutoRclone && pip install -r requirements.txt
 
-cd /sdcard/AutoRclone
+apt install rclone -y
+
+cd /sdcard/AutoRclone/
 
 rm -r .git
 
