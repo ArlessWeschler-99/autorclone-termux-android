@@ -1,4 +1,4 @@
-cd $home/sdcard
+cd /sdcard
 
 apt update && apt upgrade && apt install git -y
 
@@ -8,4 +8,8 @@ apt install python && apt install rclone -y
 
 cd /sdcard/AutoRclone && pip install -r requirements.txt && rm -r .git
 
-echo "Autorclone satisfactoriamente instalado. Continúa con los siguientes pasos; https://telegra.ph/Autorclone-en-Android-Termux-07-28"
+cd $HOME
+
+rm -rf install.sh
+
+echo "Autorclone satisfactoriamente instalado. Verás una nueva carpeta de nombre AutoRclone en tu almacenamiento interno. Continúa con los siguientes pasos; https://telegra.ph/Autorclone-en-Android-Termux-07-28"
