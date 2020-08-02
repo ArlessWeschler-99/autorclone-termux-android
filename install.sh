@@ -1,4 +1,4 @@
-cd /sdcard
+cd $home/sdcard
 
 apt update && apt upgrade && apt install git -y
 
